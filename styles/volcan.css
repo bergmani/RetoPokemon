@@ -1,0 +1,18 @@
+h1, h2{
+    text-align: center;
+}
+
+.HarrysPhotos{
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ODFour{
+    height: 300px;
+}
+
+#HSHouse{
+    width: 400px;
+}

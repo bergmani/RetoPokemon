@@ -1,0 +1,27 @@
+:root{
+    --primary: #000000;
+    --secondary: #696969;
+    --info: #8B0000;
+    --contrast: #eddd2a;
+    --bg: #FFF7D4;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    background-color: var(--contrast);
+}
+
+.return{
+    display: grid;
+justify-content: center;
+    grid-template-columns: repeat(2,300px);
+}
+
+.return > div {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--bg);
+    border: 3px solid var(--info);
+}
